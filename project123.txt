@@ -239,8 +239,3 @@ void loop()
   lcd.clear();
 }
 
-https://www.youtube.com/watch?v=BY_iG7CZBf8&list=PLMW5djzR9cKMs2_R1c59401IVQOMOs0pr&index=7
-
-https://www.youtube.com/watch?v=BY_iG7CZBf8&list=PLMW5djzR9cKMs2_R1c59401IVQOMOs0pr&index=7
-
-https://docs.google.com/document/d/17wu9_FBLR1E67s6vkyPWiHxaU2ye9ueF3woR1VjLrr8/edit
