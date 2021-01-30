@@ -1,0 +1,62 @@
+int buttonvalue =0;
+int buttonvalue1 =0;
+int button=3;
+int button1=6;
+int LED1=2;
+int LED2=4;
+int LED3=5;
+void setup() {
+pinMode(button,INPUT);
+pinMode(button1,INPUT);
+pinMode(LED1,OUTPUT);
+pinMode(LED2,OUTPUT);
+pinMode(LED3,OUTPUT);
+
+}
+
+void loop() {
+  buttonvalue= digitalRead(button);
+  buttonvalue1= digitalRead(button1);
+
+  if(buttonvalue !=0){
+     
+    digitalWrite(LED1,HIGH);
+    delay(100);
+    digitalWrite(LED2,HIGH);
+    delay(100);
+    digitalWrite(LED3,HIGH);
+    delay(100);
+    digitalWrite(LED1,LOW);
+    delay(100);
+    
+    digitalWrite(LED2,LOW);
+    digitalWrite(LED3,LOW);    
+  }
+  if(buttonvalue1 !=0){
+    digitalWrite(LED1,HIGH);
+    delay(1000);
+    digitalWrite(LED1,LOW);
+    delay(1000);
+    digitalWrite(LED1,HIGH);
+    digitalWrite(LED2,HIGH);
+    delay(1000);
+    digitalWrite(LED1,LOW);
+    digitalWrite(LED2,LOW);
+    delay(1000);
+    digitalWrite(LED1,HIGH);
+    digitalWrite(LED2,HIGH);
+    digitalWrite(LED3,HIGH);
+    delay(1000);
+    digitalWrite(LED1,LOW);
+    digitalWrite(LED2,LOW);
+    digitalWrite(LED3,LOW);
+    delay(1000); 
+    }
+  else{
+    digitalWrite(LED1,LOW);
+    digitalWrite(LED2,LOW);
+    digitalWrite(LED3,LOW);
+    
+    
+  }
+}
